@@ -6,7 +6,7 @@ h1, h2{
 h1 {
     font-size: 3em;
     letter-spacing: 0.05em;
-    font-weight: 525;
+    font-weight: 500;
     margin-top: 1.5em;
     margin-bottom: 0.3em;
 }
@@ -36,6 +36,17 @@ main {
 
 .list_intro {
     font-style: italic;
+}
+
+
+li {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 3em;
+    padding: 1em 0;
+    text-align: center;
 }
 
 img {
