@@ -1,0 +1,46 @@
+h1, h2{
+    text-align: center;
+    font-family: serif, "Times New Roman", Times, Georgia;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    font-weight: 525;
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.25em;
+    color:rgb(13, 150, 204);
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    margin: 0 auto 2.5em auto;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #c4c4c4;
+    width: 68ch;
+    max-width: 100%;
+}
+
+main {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    width: 60ch;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.list_intro {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
