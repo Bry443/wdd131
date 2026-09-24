@@ -1,3 +1,17 @@
+main {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    width: 65ch;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1em 2em 4em 4em;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+
 h1, h2{
     text-align: center;
     font-family: serif, "Times New Roman", Times, Georgia;
@@ -23,16 +37,6 @@ h2 {
     max-width: 100%;
 }
 
-main {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.25em;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    width: 60ch;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .list_intro {
     font-style: italic;
@@ -43,11 +47,13 @@ li {
     margin-bottom: 1em;
 }
 
-footer {
-    margin-top: 3em;
-    padding: 1em 0;
-    text-align: center;
+#byui-logo {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
 }
+
 
 img {
     display: block;
