@@ -21,8 +21,24 @@ main h1, main h2 {
     margin: auto 0em 5em 1;
 }
 
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;     
+}
+
 a {
     font-size: 3em;
     display: block;
     margin-bottom: 0.2rem;
+}
+
+a,
+a:visited {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 255);
+  text-decoration: underline;
 }
