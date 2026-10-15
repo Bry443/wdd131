@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-weight: bold;
+}
+header, footer {
+    padding: 1rem;
+    text-align: center;
+}
+header > * {
+    border-bottom: 1px solid #ff8a04;
+}
+.main-nav {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: right;
+}
+.main-nav li {
+    padding: 8px;
+}
+.main-nav a {
+    color: #c7382e;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 3rem;
+    border-top: 1px solid #fa7a03;
+}
+
+.book {
+    margin: 3rem 3rem 3rem 3rem;
+    text-align: left;
+}
+.book h2 {
+    color: #c7382e;
+    font-size: 2rem;
+    margin: 20px;
+}
+.book img {
+    display: block;
+    margin: 0 auto;
+}
+.review-metrics {
+    text-align: right;
+}
+.review-metrics p:first-of-type {
+    font-style: italic;
+}
+
+
+footer {
+    border-top: 1px solid #fa7a03;
+}
+
+@media (min-width: 600px) {
+    main {
+        border-top: none;
+    }
+    .book {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+
+        align-items: start;
+    }
+    .review-metrics {
+        padding-right: 2rem;
+    }
+    .book-preview {
+        padding-left: 2rem;
+        border-left: 1px solid #fa7a03;
+    }
+}
