@@ -26,12 +26,10 @@ header > * {
     color: #c7382e;
     text-decoration: none;
 }
-
 main {
     margin-top: 3rem;
     border-top: 1px solid #fa7a03;
 }
-
 .book {
     margin: 3rem 3rem 3rem 3rem;
     text-align: left;
@@ -63,7 +61,6 @@ footer {
     .book {
         display: grid;
         grid-template-columns: 1fr 4fr;
-
         align-items: start;
     }
     .review-metrics {
