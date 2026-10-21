@@ -12,6 +12,9 @@ header, footer {
 header > * {
     border-bottom: 1px solid #ff8a04;
 }
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .main-nav {
     list-style: none;
     padding: 0;
@@ -41,7 +44,7 @@ main {
 }
 .book img {
     display: block;
-    margin: 0 auto;
+    margin: 0 10rem;
 }
 .review-metrics {
     text-align: right;
@@ -49,7 +52,6 @@ main {
 .review-metrics p:first-of-type {
     font-style: italic;
 }
-
 footer {
     border-top: 1px solid #fa7a03;
 }
@@ -69,5 +71,8 @@ footer {
     .book-preview {
         padding-left: 2rem;
         border-left: 1px solid #fa7a03;
+    }
+    #book-list {
+        padding: 0 6rem;;
     }
 }
