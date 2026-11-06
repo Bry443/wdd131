@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Card</title>
+    <script src="charactercard.js" defer></script>
+    <link rel="stylesheet" href="charactercard.css">
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Character Card">
+    <meta property="og:description" content="Edit your character card stats">
+    <meta property="og:url" content="https://bry443.github.io/wdd131/prove/charactercard/index.html">
+    <meta property="og:image" content="/images/previewImage.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Character Card">
+    <meta name="twitter:description" content="Edit your character card stats">
+    <meta name="twitter:image" content="/images/previewImage.png">
+    <!-- One favicon (ICO works everywhere) -->
+    <link rel="icon" href="favicon.ico">
+    <!-- One Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
+<body>
+    <article class="card">
+        <img class="image"></img>
+        <h1 class="name"></h1>
+        <div class="stats">
+                <p id="characterClass"></p>
+                <p id="level"></p>
+                <p id="health"></p>
+        </div>
+    <div class="buttons">
+        <button id="attacked">Attacked</button>
+        <button id="levelUp">Level Up</button>
+        <div id="isDeadContainer" hidden>
+            <p>You are dead!</p>
+        </div>
+    </div>
+    </article>
+</body>
+</html>
