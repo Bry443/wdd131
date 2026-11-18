@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
     <link rel="stylesheet" href="recipes.css">
+    <script defer src="recipes.js"></script>
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Recipe Book">
@@ -30,31 +31,15 @@
         </div>
         <div class="search-container">
             <input id="searchbar" name="searchbar" type="search" placeholder="Find a recipe" required />
-            <img src="images/search.svg" alt="search icon" class="search-icon">
+            <button id="searchButton" type="submit">
+                <img src="images/search.svg" alt="search icon" class="search-icon">
+            </button>
         </div>
         <hr>
     </header>
     <main>
-        <section class="recipe-container">
-            <div class="recipe-image">
-                <img src="images/apple-crisp.jpg" alt="apple crisp with icecream">
-            </div>
-            <div class="recipe-description">
-                <button class="foodType" type="button">dessert</button>
-                <h1>Apple Crisp</h1>    
-                    <span
-                        class="rating"
-                        role="img"
-                        aria-label="Rating: 4 out of 5 stars"
-                    >
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star-empty">☆</span>
-                    </span>
-                    <p hidden class="recipeText">This apple crisp recipe is simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-            </div>
+        <section id="recipe-container">
+            
         </section>
     </main>
     <footer>

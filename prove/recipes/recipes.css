@@ -55,13 +55,13 @@ main {
     margin: 1em 2em 1em 1em;
 }
 
-.recipe-container {
+.recipe-card {
     padding: 2em;
     border: 2px solid black;
     border-radius: 12px;
 }
 
-.recipe-container h1{
+.recipe-card h1{
     color: #028BDC;
 }
 
@@ -90,18 +90,23 @@ footer {
 
 
 @media screen and (min-width: 550px) {
-    .recipeText {
-        display: block;
-    }
-    .recipe-container {
+    .recipe-card {
         display: flex;
         flex-direction: row;
         margin-left: 2em;
     }
+    .recipeText {
+        display: block;
+    }
     .recipe-image {
         flex: 1 1 500px;
-        min-width: 200px;
-        max-width: 500px;
+        width: 100px;
+        min-width: 100px;
+        max-width: 300px;
+    }
+    .recipe-image img {
+        width: 100%;
+        height: auto;
     }
     .recipe-description {
         margin-left: 2em;
